@@ -1,0 +1,7 @@
+.header {
+  overflow: hidden;
+  margin: auto;
+  max-width: 1280px;
+  position: relative;
+  height: 450px;
+}

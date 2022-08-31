@@ -1,0 +1,94 @@
+.excerpts__item {
+  position: relative;
+}
+
+.excerpts__item:nth-child(1) {
+  overflow: hidden;
+  margin-right: -10vw;
+}
+
+.excerpts__item__backgraund {
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  width: 450px;
+  height: 635px;
+  background-image: url('../../../images/stena2.jpg');
+  filter: saturate(70%) brightness(70%);
+}
+
+.excerpts__item:nth-child(1)::after {
+  content: '';
+  border-radius: 10px;
+  position: absolute;
+  left: 76px;
+  top: 128px;
+  transform: rotate(56deg);
+  width: 50%;
+  height: 6px;
+  background-color: #fd2cc1;
+  filter: drop-shadow(0 0 8px rgb(246, 109, 246)) drop-shadow(0 0 8px rgb(253, 108, 248));
+  animation: light 2s linear infinite;
+}
+
+.excerpts__item:nth-child(2) {
+  background-image: url('../../../images/stena.jpg');
+  background-size: 913px;
+  padding-right: 20px;
+  z-index: 2;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  margin-left: -10vw;
+  width: 760px;
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+
+.excerpts__item:nth-child(3) {
+  background-size: cover;
+  background-position: center;
+  margin-left: -16vw;
+  background-image: url('../../../images/xxxtentacion.jpg');
+}
+
+@keyframes light {
+  0% {
+    filter: drop-shadow(0 0 20px rgb(246, 109, 246)) drop-shadow(0 0 50px rgb(253, 108, 248));
+  }
+
+  100% {
+    filter: drop-shadow(0 0 10px rgb(246, 109, 246)) drop-shadow(0 0 30px rgb(253, 108, 248));
+  }
+}
+
+@media screen and (max-width:1230px) {
+  .excerpts__item:nth-child(3) {
+    margin-left: -20vw;
+  }
+}
+
+@media screen and (max-width:1099px) {
+  .excerpts__item:nth-child(1) {
+    display: none;
+  }
+
+  .excerpts__item:nth-child(2) {
+    clip-path: none;
+    margin-left: 0;
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width:715px){
+  .excerpts__item:nth-child(3){
+    background-position: top;
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .excerpts__item:nth-child(2){
+    grid-column: 1;
+    grid-row: 2;
+  }
+}

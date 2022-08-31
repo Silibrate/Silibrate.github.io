@@ -1,0 +1,10 @@
+.excerpts__houpe {
+  position: absolute;
+  font-size: 60px;
+  color: white;
+  z-index: 1;
+  top: 304px;
+  left: 20px;
+  transform: rotate(16deg);
+  text-shadow: 5px 5px #ff0b83;
+}

@@ -1,0 +1,12 @@
+.excerpts__info{
+  margin-top: 55px;
+  margin-right: 82px;
+}
+
+@media screen and (max-width:1099px){
+  .excerpts__info{
+    margin-right: 0;
+    max-width: 400px;
+    margin: auto;
+  }
+}

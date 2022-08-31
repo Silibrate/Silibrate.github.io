@@ -1,0 +1,18 @@
+.juicewrld__info {
+  color: #ecfb09;
+  max-width: 350px;
+  display: flex;
+  background-size: 30%;
+  justify-content: space-between;
+  flex-direction: column;
+  background-image: url('../../../images/juiceinfo.jpg');
+}
+
+@media screen and (max-width:880px) {
+  .juicewrld__info {
+    max-width: 100%;
+    flex-direction: row;
+    background-size: contain;
+    padding: 20px 0 20px 0;
+  }
+}

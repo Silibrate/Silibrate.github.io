@@ -1,0 +1,30 @@
+.square__item {
+  background-color: rgb(211 0 255);
+  width: 34px;
+  height: 34px;
+  animation: square 3s alternate infinite;
+}
+
+@keyframes square {
+  0% {
+    box-shadow: 0 0px 50px 1px rgb(211, 80, 255);
+  }
+
+  100% {
+    box-shadow: 0 0px 20px 4px rgb(255, 80, 255);
+  }
+}
+
+@media screen and (max-width:720px) {
+  .square__item {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media screen and (max-width:540px) {
+  .square__item {
+    width: 17px;
+    height: 17px;
+  }
+}

@@ -1,0 +1,10 @@
+.excerpts__container{
+margin-left: 70px;
+max-width: 488px;
+}
+
+@media screen and (max-width:1099px){
+  .excerpts__container{
+    margin-left: 0;
+    }
+}

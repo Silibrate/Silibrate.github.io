@@ -1,0 +1,21 @@
+.cards {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 100%;
+  padding: 0px 30px 25px 30px;
+ /*  background-image: url('../../images/jucBG.jpg'); */
+ /*  background-size: contain; */
+}
+.cards__backgraund{
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-size: contain;
+  background-image: url('../../images/jucBG.jpg');
+  filter: saturate(70%) brightness(70%);
+}

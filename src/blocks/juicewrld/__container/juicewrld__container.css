@@ -1,0 +1,9 @@
+.juicewrld__container {
+  display: flex;
+}
+
+@media screen and (max-width:880px) {
+  .juicewrld__container {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,49 @@
+.juicewrld__title {
+  font-size: 65px;
+  padding-left: 108px;
+  padding-top: 14px;
+  transform: rotate(26deg);
+  letter-spacing: 10px;
+}
+
+@media screen and (max-width:1114px) {
+  .juicewrld__title {
+    padding-left: 96px;
+    padding-top: 127px;
+  }
+}
+
+@media screen and (max-width:880px) {
+  .juicewrld__title {
+    padding-left: 37px;
+    padding-top: 51px;
+    transform: rotate(329deg);
+  }
+}
+
+@media screen and (max-width:645px) {
+  .juicewrld__title {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width:558px) {
+  .juicewrld__title {
+    padding-top: 14px;
+  }
+}
+
+@media screen and (max-width:558px) {
+  .juicewrld__title {
+    padding-left: 21px;
+    padding-top: 35px;
+    letter-spacing: 4px;
+  }
+}
+
+@media screen and (max-width:443px) {
+  .juicewrld__title {
+    padding: 0;
+    transform: none;
+  }
+}

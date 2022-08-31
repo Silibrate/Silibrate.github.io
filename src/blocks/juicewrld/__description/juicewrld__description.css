@@ -1,0 +1,9 @@
+.juicewrld__description {
+  padding-left: 50px;
+}
+
+@media screen and (max-width:390px) {
+  .juicewrld__description {
+    padding-left: 20px;
+  }
+}

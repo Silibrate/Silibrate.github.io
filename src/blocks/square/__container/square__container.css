@@ -1,0 +1,26 @@
+.square__container {
+  padding-bottom: 96px;
+  padding-top: 96px;
+  cursor: pointer;
+  justify-content: center;
+  gap: 5px;
+  display: grid;
+  grid-template-columns: repeat(14, 34px);
+  grid-template-rows: repeat(5, 34px);
+}
+
+@media screen and (max-width:720px) {
+  .square__container {
+    padding-bottom: 100px;
+    padding-top: 50px;
+    gap: 2px;
+    grid-template-columns: repeat(14, 24px);
+    grid-template-rows: repeat(5, 1fr);
+  }
+}
+
+@media screen and (max-width:540px) {
+  .square__container {
+    grid-template-columns: repeat(14, 17px);
+  }
+}
