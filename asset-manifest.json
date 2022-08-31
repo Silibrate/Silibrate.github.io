@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c87ac045.css",
+    "main.js": "/static/js/main.ac2e97ab.js",
+    "static/js/787.9ac857a4.chunk.js": "/static/js/787.9ac857a4.chunk.js",
+    "static/media/stena.jpg": "/static/media/stena.8a9d9dff6acb5c792c29.jpg",
+    "static/media/juice3.png": "/static/media/juice3.7fe3bd2f984e8c8e2f40.png",
+    "static/media/jucBG.jpg": "/static/media/jucBG.e6a75fb6e0983fa5b91a.jpg",
+    "static/media/headerFon.jpg": "/static/media/headerFon.197b10b985638e94fa54.jpg",
+    "static/media/juice5.jpg": "/static/media/juice5.625e402da349f52d709d.jpg",
+    "static/media/juice1.jpg": "/static/media/juice1.05de83f4aa60af7a0ce7.jpg",
+    "static/media/juice2.jpg": "/static/media/juice2.bf6f2047dd5dfb54ad4d.jpg",
+    "static/media/juice4.jpg": "/static/media/juice4.e501489ee59f1dfa2b3b.jpg",
+    "static/media/fon2.jpg": "/static/media/fon2.6bdd8365b05b4790be91.jpg",
+    "static/media/xxxtentacion.jpg": "/static/media/xxxtentacion.42ed04e0446d58bf2dc9.jpg",
+    "static/media/juiceinfo.jpg": "/static/media/juiceinfo.a65830d6ed99781e5bff.jpg",
+    "static/media/stena2.jpg": "/static/media/stena2.57bcf0b10f0de350c20f.jpg",
+    "index.html": "/index.html",
+    "main.c87ac045.css.map": "/static/css/main.c87ac045.css.map",
+    "main.ac2e97ab.js.map": "/static/js/main.ac2e97ab.js.map",
+    "787.9ac857a4.chunk.js.map": "/static/js/787.9ac857a4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c87ac045.css",
+    "static/js/main.ac2e97ab.js"
+  ]
+}
