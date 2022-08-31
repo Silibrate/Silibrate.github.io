@@ -43,23 +43,29 @@
   .juicewrld__text::after {
     height: 677px;
     left: 138px;
-    top: -165px;
+    top: -188px;
     transform: rotate(90deg);
+  }
+  .juicewrld__text{
+    line-height: 30px;
   }
 }
 
 @media screen and (max-width:827px) {
   .juicewrld__text::after {
-    top: -31px;
+    top: -89px;
     height: 497px;
+  }
+  .juicewrld__text{
+    font-size: 20px;
   }
 }
 
-@media screen and (max-width:740px) {
+@media screen and (max-width:741px) {
   .juicewrld__text::after {
     top: -63px;
     left: -45px;
-    height: 320px;
+    height: 272px;
     transform:none;
   }
 }

@@ -1,11 +1,10 @@
 import React from "react";
 import anime from './anime';
-import img from '../images/jucBG.jpg';
-import juice1 from '../images/juice1.jpg';
-import juice2 from '../images/juice2.jpg';
+import juice1 from '../images/juice1.png';
+import juice2 from '../images/juice2.png';
 import juice3 from '../images/juice3.png';
-import juice4 from '../images/juice4.jpg';
-import juice5 from '../images/juice5.jpg';
+import juice4 from '../images/juice4.png';
+import juice5 from '../images/juice5.png';
 
 const Main = () => {
 
@@ -66,10 +65,7 @@ const Main = () => {
             <h2 className="juicewrld__title">Juice<span className="juicewrld__title_bottom">WRLD</span></h2>
             <div className="juicewrld__description">
               <h3 className="juicewrld__subtitle">My Life</h3>
-              <p className="juicewrld__text"> Does anybody here wanna be my friend?
-                Want it all to end,
-                Tell me when the fuck is it all gon' end?
-                Voices in my head telling me I'm gonna end up dead.</p>
+              <p className="juicewrld__text"> Part of the reason why I kept ‘Juice’ in my name wasn’t only for Tupac. It was for three rappers, actually: Tupac, Soulja Boy had an old mixtape called Juice, and MC Juice.</p>
             </div>
           </div>
 
@@ -78,57 +74,63 @@ const Main = () => {
               <div className="cards__backgraund"></div>
               <div className="card__item">
                 <img className="card__img" src={juice1} alt="Avatar"></img>
-                <h3 className="card__title">RRuuun</h3>
+                <h3 className="card__title">I'm just</h3>
                 <p className="card__text">
-                  Does anybody here wanna be my friend?
-                  Want it all to end,
-                  Tell me when the fuck is it all gon' end?
-                  Voices in my head telling me I'm gonna end up dead.</p>
+                  I'm in the cut getting green like a farmer
+                  I put the gun to your head like a barber
+                  I fuck in your bitch in a room in Ramada
+                  Not at the W, save me some drama
+                  I'm taking Ws, no I ain't not losing</p>
               </div>
               <div className="card__item">
                 <img className="card__img" src={juice2} alt="Avatar"></img>
-                <h3 className="card__title">RRuuun</h3>
+                <h3 className="card__title">Robbery</h3>
                 <p className="card__text">
-                  Does anybody here wanna be my friend?
-                  Want it all to end,
-                  Tell me when the fuck is it all gon' end?
-                  Voices in my head telling me I'm gonna end up dead.</p>
+                  I can't reverse it
+                  It was a gift and a curse
+                  And now I'm drinkin' too much, so I'ma talk with a slur
+                  Last time I saw you, it ended in a blur
+                  I woke up in a hearse</p>
               </div>
               <div className="card__item">
                 <img className="card__img" src={juice3} alt="Avatar"></img>
-                <h3 className="card__title">RRuuun</h3>
+                <h3 className="card__title">Stay High</h3>
                 <p className="card__text">
-                  Does anybody here wanna be my friend?
-                  Want it all to end,
-                  Tell me when the fuck is it all gon' end?
-                  Voices in my head telling me I'm gonna end up dead.</p>
+                  Hate it when they play both sides
+                  Too low in my life
+                  Gotta stay high, gotta stay high
+                  Too low in my life, yeah, I gotta stay
+                  Hate it when they play both sides</p>
               </div>
               <div className="card__item">
                 <img className="card__img" src={juice4} alt="Avatar"></img>
-                <h3 className="card__title">RRuuun</h3>
+                <h3 className="card__title">Conversations</h3>
                 <p className="card__text">
-                  Does anybody here wanna be my friend?
-                  Want it all to end,
-                  Tell me when the fuck is it all gon' end?
-                  Voices in my head telling me I'm gonna end up dead.</p>
+                  The devil hit my phone, he wanna talk
+                  But Im not really up for conversations
+                  I can have my cake and eat it, too
+                  I just gotta make a reservation
+                  Chillin in my head, but it’s hot</p>
               </div>
               <div className="card__item">
                 <img className="card__img" src={juice5} alt="Avatar"></img>
-                <h3 className="card__title">RRuuun</h3>
+                <h3 className="card__title">No Coaster</h3>
                 <p className="card__text">
-                  Does anybody here wanna be my friend?
-                  Want it all to end,
-                  Tell me when the fuck is it all gon' end?
-                  Voices in my head telling me I'm gonna end up dead.</p>
+                  I got dirty soda with no coaster
+                  She do coke, no Coca-Cola
+                  Where she from? She say, "The coast"
+                  She get wetter than a boat
+                  That lil' ho gon' do the most</p>
               </div>
               <div className="card__item">
                 <img className="card__img" src={juice1} alt="Avatar"></img>
-                <h3 className="card__title">RRuuun</h3>
+                <h3 className="card__title">Man Of The Year
+                </h3>
                 <p className="card__text">
-                  Does anybody here wanna be my friend?
-                  Want it all to end,
-                  Tell me when the fuck is it all gon' end?
-                  Voices in my head telling me I'm gonna end up dead.</p>
+                  Man of the year, still got problems
+                  Lookin’ in the mirror, you look awful
+                  Talkin’ to myself, do it too often
+                  JK, Juice WRLD, you’re so awesome</p>
               </div>
             </div>
           </div>

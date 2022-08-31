@@ -16,9 +16,9 @@
 .header__title::after {
   content: '';
   left: 0px;
-  top: 92px;
+  top: 91px;
   background-color: rgb(201, 226, 37);
-  height: 6px;
+  height: 7px;
   animation: headertext 6s linear infinite;
   position: absolute;
   color: rgb(206, 229, 57);
